@@ -1,9 +1,9 @@
----- my portfolio website ----
+### my portfolio website
 
-i made this website on 14th october using html, css and javascript only.
-i am not a web developer; i am a software developer.
-therefore do not judge my website badly...
-
+i made this website using html, css and javascript only.  
+i am a  ~~web developer~~  **software developer**.  
+therefore do not judge my website badly...  
+  
 thanks :)
 _______________________________________________________________________
 
