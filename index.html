@@ -18,224 +18,278 @@
             <a>Farzeen Ilyas Zargar</a>
         </div>
         <div id="elements">
-            <a href="#">Portfolio</a>
-            <a href="#">About</a>
-            <a href="#">Articles</a>
-            <a href="#">Contact</a>
+            <button class="tablink"  id="open_btn" onclick="openPage('portfolio', this)">portfolio</button>
+            <button class="tablink" onclick="openPage('about', this)">about</button>
+            <button class="tablink" onclick="openPage('articles', this)">articles</button>
+            <button class="tablink" onclick="openPage('contact', this)">contact</button>
         </div>
         <div id="cv_btn_wrapper">
             <div id="cv_btn_div">
                 <img src="icons/download.png" id="download_icon">
-                <a href="resources/My Resume.pdf" download="Farzeen's Resume">Download CV</a>
+                <a href="resources/resume.pdf" download="Farzeen's Resume">Download Resume</a>
             </div>
         </div>
     </div>
 
 
 
-    <!----------  Name Box  ------------>
+    <div id="portfolio" class="tabcontent">
 
-    <div class="name_wrapper">
-        <div id="upper">
-            <p>Farzeen Ilyas Zargar</p>
-            <div id="right_icons">
-                <a href="https://github.com/farzeenilyaszargar"><img src="icons/github.png" class="s_icon"></a>
-                <a href="https://www.instagram.com/farzeenilyaszargar/"><img src="icons/instagram.png" class="s_icon"></a>
-                <a href="https://www.linkedin.com/in/farzeenilyaszargar/"><img src="icons/linkedin.png" class="s_icon"></a>
+        <div class="name_wrapper">
+            <div id="upper">
+                <p>Farzeen Ilyas Zargar</p>
+                <div id="right_icons">
+                    <a href="https://github.com/farzeenilyaszargar" target="_blank"><img src="icons/github.png"
+                            class="s_icon"></a>
+                    <a href="https://www.instagram.com/farzeenilyaszargar/" target="_blank"><img
+                            src="icons/instagram.png" class="s_icon"></a>
+                    <a href="https://www.linkedin.com/in/farzeenilyaszargar/" target="_blank"><img
+                            src="icons/linkedin.png" class="s_icon"></a>
+
+                </div>
+            </div>
+            <div id="location">
+                <img src="icons/map-pin.png">
+                <p>Noida, India</p>
+            </div>
+            <p id="info_p">I am Farzeen, a dedicated software developer with a passion for crafting seamless digital
+                experiences. I
+                thrive on solving complex challenges and continuously expanding my expertise. I am eager to
+                collaborate
+                on
+                innovative projects that push the boundaries of technology and creativity.</p>
+
+        </div>
+
+
+
+        <!----------  Skills  ------------>
+
+        <h1 class="toper_heads">Skills</h1>
+        <div class="skills_wrapper">
+            <div class="skill1">
+                <img src="icons/java.png" class="icns">
+                <p>Java</p>
+                <img src="icons/c.png" class="icns">
+                <p>C++</p>
+                <img src="/icons/php.png" class="icns">
+                <p>php</p>
+                <img src="icons/react.png" class="icns">
+                <p>React</p>
+                <img src="icons/html.png" class="icns">
+                <p>HTML</p>
+                <img src="icons/css-3.png" class="icns">
+                <p>CSS</p>
+                <img src="icons/js.png" class="icns">
+                <p>JavaScript</p>
+                <img src="icons/git.png" class="icns">
+                <p>Git</p>
+                <img src="icons/mysql.png" class="icns">
+                <p>MySQL</p>
+            </div>
+
+            <div class="skill2">
+                <img src="icons/java.png" class="icns">
+                <p>Java</p>
+                <img src="icons/c.png" class="icns">
+                <p>C++</p>
+                <img src="/icons/php.png" class="icns">
+                <p>php</p>
+                <img src="icons/react.png" class="icns">
+                <p>React</p>
+                <img src="icons/html.png" class="icns">
+                <p>HTML</p>
+                <img src="icons/css-3.png" class="icns">
+                <p>CSS</p>
+                <img src="icons/js.png" class="icns">
+                <p>JavaScript</p>
+                <img src="icons/git.png" class="icns">
+                <p>Git</p>
+                <img src="icons/mysql.png" class="icns">
+                <p>MySQL</p>
 
             </div>
         </div>
-        <div id="location">
-            <img src="icons/map-pin.png">
-            <p>Noida, India</p>
-        </div>
-        <p id="info_p">I am Farzeen, a dedicated software developer with a passion for crafting seamless digital
-            experiences. I
-            thrive on solving complex challenges and continuously expanding my expertise. I am eager to collaborate on
-            innovative projects that push the boundaries of technology and creativity.</p>
-
-    </div>
-
-
-
-    <!----------  Skills  ------------>
-
-    <h1 class="toper_heads">Skills</h1>
-    <div class="skills_wrapper">
-        <div class="skill1">
-            <img src="" class="icns">
-            <p>Java</p>
-            <img src="" class="icns">
-            <p>C</p>
-            <img src="" class="icns">
-            <p>php</p>
-            <img src="" class="icns">
-            <p>React</p>
-            <img src="" class="icns">
-            <p>Rust</p>
-            <img src="" class="icns">
-            <p>HTML</p>
-            <img src="" class="icns">
-            <p>CSS</p>
-            <img src="" class="icns">
-            <p>JavaScript</p>
-            <img src="" class="icns">
-            <p>Git</p>
-            <img src="" class="icns">
-            <p>MySQL</p>
-        </div>
-
-        <div class="skill2">
-            <img src="" class="icns">
-            <p>Java</p>
-            <img src="" class="icns">
-            <p>C</p>
-            <img src="" class="icns">
-            <p>php</p>
-            <img src="" class="icns">
-            <p>React</p>
-            <img src="" class="icns">
-            <p>Rust</p>
-            <img src="" class="icns">
-            <p>HTML</p>
-            <img src="" class="icns">
-            <p>CSS</p>
-            <img src="" class="icns">
-            <p>JavaScript</p>
-            <img src="" class="icns">
-            <p>Git</p>
-            <img src="" class="icns">
-            <p>MySQL</p>
-
-        </div>
-    </div>
-    <div class="skills_wrapper">
-        <div class="skill3">
-            <img src="" class="icns">
-            <p>Java</p>
-            <img src="" class="icns">
-            <p>C</p>
-            <img src="" class="icns">
-            <p>php</p>
-            <img src="" class="icns">
-            <p>React</p>
-            <img src="" class="icns">
-            <p>Rust</p>
-            <img src="" class="icns">
-            <p>HTML</p>
-            <img src="" class="icns">
-            <p>CSS</p>
-            <img src="" class="icns">
-            <p>JavaScript</p>
-            <img src="" class="icns">
-            <p>Git</p>
-            <img src="" class="icns">
-            <p>MySQL</p>
-        </div>
-
-        <div class="skill4">
-            <img src="" class="icns">
-            <p>Java</p>
-            <img src="" class="icns">
-            <p>C</p>
-            <img src="" class="icns">
-            <p>php</p>
-            <img src="" class="icns">
-            <p>React</p>
-            <img src="" class="icns">
-            <p>Rust</p>
-            <img src="" class="icns">
-            <p>HTML</p>
-            <img src="" class="icns">
-            <p>CSS</p>
-            <img src="" class="icns">
-            <p>JavaScript</p>
-            <img src="" class="icns">
-            <p>Git</p>
-            <img src="" class="icns">
-            <p>MySQL</p>
-
-        </div>
-
-    </div>
-
-
-    <!----------  Experience  ------------>
-
-    <h1 class="toper_heads">Experience</h1>
-    <div class="experience_wrapper">
-        <div class="box">
-            <h1>Making Portfolio</h1>
-            <p class="l">from October 2024 to November 2024</p>
-            <p>I made this website which is my personal website and portfolio. I made this website which is my personal
-                website and portfolio </p>
-        </div>
-
-        <div class="box">
-            <h1>Internship at Google</h1>
-            <p class="l">from March 2025 to July 2026</p>
-            <p>Yes its true Yes its true Yes its true Yes its trueYes its trueYes its trueYes its trueYes its true</p>
-        </div>
-
-        <div class="box">
-            <h1>Software Development at Microsft</h1>
-            <p class="l">from August 2027 to May 2029</p>
-            <p>Yes this is even truerYes this is even truerYes this is even truerYes this is even truerYes this is even
-                truerYes this is even truer</p>
-        </div>
-
-    </div>
-
-
-    <!----------  Projects  ------------>
-
-    <h1 class="toper_heads">My Projects</h1>
-    <div class="proj_bog">
-        <a class="prev" onclick="plusSlides(-1)">❮</a>
-
-        <div class="project_wrapper">
-
-            <div class="boxy">
-                <img src="imgs/p1.png">
-                <p class="j">Text Editor using C</p>
-                <p class="jk">jshadkjahskdsakj</p>
-
+        <div class="skills_wrapper">
+            <div class="skill3">
+                <img src="icons/java.png" class="icns">
+                <p>Java</p>
+                <img src="icons/c.png" class="icns">
+                <p>C++</p>
+                <img src="/icons/php.png" class="icns">
+                <p>php</p>
+                <img src="icons/react.png" class="icns">
+                <p>React</p>
+                <img src="icons/html.png" class="icns">
+                <p>HTML</p>
+                <img src="icons/css-3.png" class="icns">
+                <p>CSS</p>
+                <img src="icons/js.png" class="icns">
+                <p>JavaScript</p>
+                <img src="icons/git.png" class="icns">
+                <p>Git</p>
+                <img src="icons/mysql.png" class="icns">
+                <p>MySQL</p>
             </div>
-            <div class="boxy">
-                <img src="imgs/p2.jpg">
-                <p class="j">Security System using Raspberry Pi</p>
-                <p class="jk">jshadkjahskdsakj</p>
 
-
-            </div>
-            <div class="boxy">
-                <img src="imgs/p3.jpeg">
-                <p class="j">Tetris Game using Java</p>
-                <p class="jk">jshadkjahskdsakj</p>
-
-
+            <div class="skill4">
+                <img src="icons/java.png" class="icns">
+                <p>Java</p>
+                <img src="icons/c.png" class="icns">
+                <p>C++</p>
+                <img src="/icons/php.png" class="icns">
+                <p>php</p>
+                <img src="icons/react.png" class="icns">
+                <p>React</p>
+                <img src="icons/html.png" class="icns">
+                <p>HTML</p>
+                <img src="icons/css-3.png" class="icns">
+                <p>CSS</p>
+                <img src="icons/js.png" class="icns">
+                <p>JavaScript</p>
+                <img src="icons/git.png" class="icns">
+                <p>Git</p>
+                <img src="icons/mysql.png" class="icns">
+                <p>MySQL</p>
             </div>
 
         </div>
-        <a class="next" onclick="plusSlides(1)">❯</a>
+
+
+        <!----------  Experience  ------------>
+
+        <h1 class="toper_heads">Experience</h1>
+        <div class="experience_wrapper">
+            <div class="box">
+                <h1>Making Portfolio</h1>
+                <p class="l">from October 2024 to November 2024</p>
+                <p>I made this website which is my personal website and portfolio. I made this website which is my
+                    personal
+                    website and portfolio </p>
+            </div>
+
+            <div class="box">
+                <h1>Internship at Google</h1>
+                <p class="l">from March 2025 to July 2026</p>
+                <p>At Google, I was immersed in a fast-paced and innovative environment where my primary
+                    responsibilities included developing and optimizing software solutions that enhance user
+                    experiences. I collaborated closely with cross-functional teams to brainstorm ideas and tackle
+                    complex challenges, leveraging data analytics to inform product decisions.</p>
+            </div>
+
+            <div class="box">
+                <h1>Software Development at Microsft</h1>
+                <p class="l">from August 2027 to May 2029</p>
+                <p>At Microsoft, I am part of a collaborative and forward-thinking team focused on developing
+                    innovative
+                    software solutions and technologies that empower individuals and organizations. My role involves
+                    designing, coding, and testing applications while leveraging cloud services and data analytics
+                    to
+                    drive business insights. I regularly work with diverse teams to align our projects with user
+                    needs
+                    and company goals, fostering an environment of creativity and problem-solving.</p>
+            </div>
+
+        </div>
+
+
+        <!----------  Projects  ------------>
+
+        <h1 class="toper_heads">My Projects</h1>
+        <div class="proj_bog">
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+
+            <div class="project_wrapper">
+
+                <div class="boxy">
+                    <img src="imgs/p1.png">
+                    <p class="j">Text Editor using C</p>
+                    <p class="jk">jshadkjahskdsakj</p>
+
+                </div>
+                <div class="boxy">
+                    <img src="imgs/p2.jpg">
+                    <p class="j">Security System using Raspberry Pi</p>
+                    <p class="jk">jshadkjahskdsakj</p>
+
+
+                </div>
+
+                <div class="boxy">
+                    <img src="imgs/p3.jpeg">
+                    <p class="j">Tetris Game using Java</p>
+                    <p class="jk">jshadkjahskdsakj</p>
+
+
+                </div>
+                <div class="boxy">
+                    <img src="imgs/p4.webp">
+                    <p class="j">Space Invaders in Terminal using C</p>
+                    <p class="jk">jshadkjahskdsakj</p>
+
+
+                </div>
+
+            </div>
+            <a class="next" onclick="plusSlides(1)">❯</a>
 
 
 
+        </div>
+        <div class="dotiis">
+
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+
+        </div>
     </div>
-    <div class="dotiis">
 
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
 
+
+    <div id="about" class="tabcontent">
+        <div class="name_wrapper">
+                <h2>Farzeen Ilyas Zargar</h2>
+
+            <div id="location2">
+                <img src="icons/map-pin.png">
+                <p>Noida, India</p>
+            </div>
+            <p id="info_p">I am Farzeen, a dedicated software developer with a passion for crafting seamless digital experiences. I thrive on solving complex challenges and continuously expanding my expertise. I am eager to collaborate on innovative projects that push the boundaries of technology and creativity.</p>
+            <p>ajksdh s adkaskjdh ashj dhkas dhksja hdsa kdj sajkd ashd kjsa d askd jsa d ak hd </p>
+            <h2>Education</h2>
+                <li>DPS, GBN 2020 to 2023</li>
+                <li>VIT Vellore 2023 to 2027</li>
+
+            <div id="goals">
+                <h2 >Goals</h2>
+                <input type="checkbox"> learn java 
+                <input type="checkbox"> learn c++
+                <input type="checkbox"> learn php
+            </div>
+        </div>
     </div>
 
+    <div id="articles" class="tabcontent" >
+        <p>no articles at the moment ..</p>
+    </div>
+    <div id="contact" class="tabcontent">
+        <p class="toper_heads" style="text-decoration: underline;">Contact Me</p>
+        <p><span class="highlite">phone</span> 9818960083</p>
+        <p><span class="highlite">email</span> farzeenilyaszargar@gmail.com</p>
 
-
+        <p>write ideas or suggestions to me!</p>
+        <textarea id="textar" placeholder="write message to me..."></textarea>
+        <p id="counter">0/200</p>
+        <div id="snd_btn_div">
+            <button onclick="sendMsg()">send</button>
+        </div>
+    </div>
     <!----------  Footer  ------------>
     <div class="footer">
         <p>©2024 Farzeen Ilyas Zargar</p>
-        <p>Look at my projects on <a href="#">Github</a></p>
+        <p>Look at my projects on <a href="https://github.com/farzeenilyaszargar" target="_blank">Github</a></p>
     </div>
 
 </body>
